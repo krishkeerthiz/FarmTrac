@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/bottom_navigation_graph"
+    app:startDestination="@id/navigation_new_entry">
+
+    <keep_state_fragment
+        android:id="@+id/navigation_new_entry"
+        android:name="com.yourapp.farmtrac.ui.newEntry.NewEntryFragment"
+        android:label="fragment_new_entry"
+        tools:layout="@layout/fragment_new_entry" >
+        <action
+            android:id="@+id/action_navigation_new_entry_to_welcomeFragment"
+            app:destination="@id/welcomeFragment" />
+        <action
+            android:id="@+id/action_navigation_new_entry_to_balanceDetailFragment"
+            app:destination="@id/balanceDetailFragment" />
+        <action
+            android:id="@+id/action_navigation_new_entry_to_historyDetailFragment"
+            app:destination="@id/historyDetailFragment" />
+
+    </keep_state_fragment>
+    <keep_state_fragment
+        android:id="@+id/navigation_balance"
+        android:name="com.yourapp.farmtrac.ui.balance.BalanceFragment"
+        android:label="fragment_balance"
+        tools:layout="@layout/fragment_balance" />
+    <keep_state_fragment
+        android:id="@+id/navigation_history"
+        android:name="com.yourapp.farmtrac.ui.history.HistoryFragment"
+        android:label="fragment_history"
+        tools:layout="@layout/fragment_history" />
+    <keep_state_fragment
+        android:id="@+id/welcomeFragment"
+        android:name="com.yourapp.farmtrac.ui.welcome.WelcomeFragment"
+        android:label="fragment_welcome"
+        tools:layout="@layout/fragment_welcome" >
+        <action
+            android:id="@+id/action_welcomeFragment_to_navigation_new_entry"
+            app:destination="@id/navigation_new_entry" />
+    </keep_state_fragment>
+    <keep_state_fragment
+        android:id="@+id/balanceDetailFragment"
+        android:name="com.yourapp.farmtrac.ui.balanceDetail.BalanceDetailFragment"
+        android:label="fragment_balance_detail"
+        tools:layout="@layout/fragment_balance_detail" />
+    <keep_state_fragment
+        android:id="@+id/historyDetailFragment"
+        android:name="com.yourapp.farmtrac.ui.historyDetail.HistoryDetailFragment"
+        android:label="fragment_history_detail"
+        tools:layout="@layout/fragment_history_detail" >
+        <argument
+            android:name="name"
+            app:argType="string"
+            android:defaultValue=""/>
+    </keep_state_fragment>
+</navigation>

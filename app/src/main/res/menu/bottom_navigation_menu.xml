@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_new_entry"
+        android:title="@string/new_entry"
+        android:icon="@drawable/add" />
+
+    <item
+        android:id="@+id/navigation_balance"
+        android:title="@string/balance"
+        android:icon="@drawable/rupee" />
+
+    <item
+        android:id="@+id/navigation_history"
+        android:title="@string/history"
+        android:icon="@drawable/list" />
+</menu>

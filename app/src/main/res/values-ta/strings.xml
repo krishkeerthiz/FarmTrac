@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">விவசாய வண்டி</string>
+
+    <string name="new_entry">புதிய வருகை</string>
+    <string name="name">பெயர்</string>
+    <string name="work">வேலை</string>
+    <string name="points">புள்ளி</string>
+    <string name="submit">சேமி</string>
+    <string name="balance">பணம் விவரம்</string>
+    <string name="balanceAmount">பெற வேண்டிய தொகை</string>
+    <string name="pointPrice">ஒரு புள்ளியின் விலை</string>
+    <string name="history">சவாரிகள்</string>
+    <string name="next">அடுத்து</string>
+    <string name="amount">தொகை</string>
+    <string name="preference_file_key">com.yourapp.farmtrac.PREFERENCE_FILE_KEY</string>
+    <string name="first_time">firstTime</string>
+    <string name="language">மொழி</string>
+    <string name="about">உருவாக்கியவர் விவரம்</string>
+    <string name="english">ஆங்கிலம்</string>
+    <string name="tamil">தமிழ்</string>
+    <string name="basic">அடிப்படை</string>
+    <string name="additional">கூடுதல் விவரம்</string>
+    <string name="greeting">உங்கள் பயன்பாட்டிற்கு நன்றி 😃</string>
+    <string name="settings">அமைப்புகள்</string>
+    <string name="date">தேதி</string>
+    <string name="history_detail">சவாரி விவரம்</string>
+    <string name="balance_detail">பணம் விவரம்</string>
+    <string name="pay">பணம் பெறப்பட்டது</string>
+    <string name="pay_now">செலுத்து</string>
+    <string name="or">அல்லது</string>
+    <string name="ok">சரி</string>
+    <string name="sampleText">உரை</string>
+    <string name="paid">பெறப்பட்டது</string>
+    <string name="mailText">மின்னஞ்சல்</string>
+    <string name="mail">keerthik97117@gmail.com</string>
+    <string name="contactText">தொடர்புக்கு</string>
+    <string name="contact">9790307426</string>
+    <string name="submitted">விவரங்கள் சேமிக்கப்பட்டன</string>
+    <string name="update_message">புதிய அப்டேட் உள்ளது</string>
+    <string name="update">அப்டேட்</string>
+    <string name="cancel">ரத்துசெய் </string>
+    <string name="no_balance">மீதி தொகை இல்லை</string>
+    <string name="no_record">பதிவுகள் எதுவும் இல்லை</string>
+    <string name="invalid_point_price">புள்ளியின் விலை எண்களில் இருக்க வேண்டும்</string>
+    <string name="invalid_point">புள்ளி 0 ஐ விட அதிகமாக இருக்க வேண்டும்</string>
+    <string name="invalid_amount">தொகை 0 ஐ விட அதிகமாக இருக்க வேண்டும்</string>
+
+</resources>

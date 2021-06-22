@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="works">
+        <item>கலப்பை</item>
+        <item>சேடை</item>
+    </string-array>
+
+    <string-array name="language_entries">
+        <item>ஆங்கிலம்</item>
+        <item>தமிழ்</item>
+    </string-array>
+
+    <string-array name="language_values">
+        <item>en</item>
+        <item>ta</item>
+    </string-array>
+</resources>

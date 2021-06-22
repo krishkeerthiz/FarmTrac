@@ -1,0 +1,2 @@
+rootProject.name = "FarmTrac"
+include ':app'

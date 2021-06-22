@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory app:title="@string/basic"
+        app:iconSpaceReserved="false">
+        <EditTextPreference
+            app:key="points"
+            app:title="@string/pointPrice"
+            app:defaultValue="100"
+            app:useSimpleSummaryProvider="true"
+            android:inputType="number"
+            app:iconSpaceReserved="false"
+            />
+        <ListPreference
+            app:key="language"
+            app:title="@string/language"
+            app:entries="@array/language_entries"
+            app:entryValues="@array/language_values"
+            app:defaultValue="en"
+            app:useSimpleSummaryProvider="true"
+            app:iconSpaceReserved="false"
+            />
+    </PreferenceCategory>
+
+    <PreferenceCategory app:title="@string/additional"
+        app:iconSpaceReserved="false">
+        <Preference
+            app:key="about"
+            app:title="@string/about"
+            app:iconSpaceReserved="false">
+            <intent android:action="com.yourapp.farmtrac.SETTINGS_ACTIVITY"
+                />
+        </Preference>
+
+    </PreferenceCategory>
+
+</PreferenceScreen>
